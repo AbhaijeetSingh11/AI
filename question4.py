@@ -1,0 +1,13 @@
+L=[10,20,40,30,60,50,70,80]
+L.append(200)
+print(L)
+L.append(300)
+print(L)
+L.remove(10)
+print(L)
+L.remove(30)
+print(L)
+L.sort()
+print(L)
+L.reverse()
+print(L)

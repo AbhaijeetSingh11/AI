@@ -1,0 +1,37 @@
+maths=[]
+science=[]
+english=[]
+it=[]
+n=int(input('enter the number of entries:'))
+for i in range(0,n):
+    y=int(input('enter the marks obtained in science:'))
+    science.insert(i,y)
+    y=int(input('enter the marks obtained english:'))
+    english.insert(i,y)
+    y=int(input('enter the marks obtained it:'))
+    it.insert(i,y)
+    y=int(input('enter the marks obtained maths:'))
+    maths.insert(i,y)
+print('maths:',maths)
+print('english:',english)
+print('it:',it)
+print('science:',science)
+mathsmax=max(maths)
+itmax=max(it)
+sciencemax=max(science)
+englishmax=max(english)
+print('Maximun marks obtained in Maths',mathsmax)
+print('Maximun marks obtained in Science',sciencemax)
+print('Maximun marks obtained in IT',itmax)
+print('Maximun marks obtained in English',englishmax)
+print(max(mathsmax,itmax,sciencemax,englishmax))
+
+mathsmin=min(maths)
+itmin=min(it)
+sciencemin=min(science)
+englishmin=min(english)
+print('minimun marks obtained in Maths',mathsmin)
+print('minimun marks obtained in Science',sciencemin)
+print('minimun marks obtained in IT',itmin)
+print('minimun marks obtained in English',englishmin)
+print(min(mathsmin,itmin,sciencemin,englishmin))
